@@ -1,0 +1,84 @@
+:root {
+    --color-primary: #2E2F42;
+    --color-secondary: #434455;
+    --color-background: #4D5AE5;
+    --color-nav-btn: #F4F4FD;
+    --color-footer-logo: #ffffff;
+    --color-footer-text: #F4F4FD;
+}
+
+body{
+color: var(--color-primary);
+font-family: 'Roboto', sans-serif;
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+}
+/* Header */
+.main-nav-link {
+    text-decoration: none;
+    list-style: none;
+}
+
+.logo{
+font-family: 'Raleway';
+font-weight: 800;
+font-size: 18px;
+line-height: 1.16;
+color: var(--color-primary);
+text-decoration: none;
+}
+.logo-style {
+    color: var(--color-background);
+}
+.list {
+    text-decoration: none;
+    list-style: none;
+}
+
+/* hero */
+
+.hero{
+    background-color: var(--color-primary);
+}
+
+.hero-title{
+color: var(--color-footer-logo);
+font-size: 56px;
+line-height: 1.07;
+text-align: center;
+letter-spacing: 0.02em;
+}
+
+.hero-btn{
+color: var(--color-footer-logo);
+background-color: var(--color-background);
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+display: flex;
+align-items: center;
+letter-spacing: 0.04em;
+}
+.hero-btn:hover{
+    background-color: ##404BBF;
+    cursor: pointer;
+}
+
+/* preferences */
+.preferences {
+    font-family: inherit;
+}
+.preferences-title {
+    font-weight: 500;
+}
+
+.preferences-text {
+    font-family: inherit;
+    color: var(--color-secondary);
+}
+
+/* Team */
+
+
+
