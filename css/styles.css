@@ -80,5 +80,70 @@ letter-spacing: 0.04em;
 
 /* Team */
 
+.team {
+}
+.team-title {
+font-family: inherit;
+}
+
+.team-list {
+}
+
+.team-item {
+}
+.team-item-title{
+font-family: inherit;
+}
+.team-text {
+    font-family: inherit;
+    color: var(--color-secondary);
+}
+
+/* footer */
+
+.footer{
+    background-color: var(--color-primary);
+}
+.footer-link {
+    font-family: 'Raleway';
+font-weight: 800;
+font-size: 18px;
+line-height: 1.16;
+color: var(--color-footer-logo);
+}
+.footer-text {
+    font-family: inherit;
+    color: var(--color-footer-text);
+}
 
 
+/* ----------Portfolio----------- */
+
+.nav-btn {
+    background-color: var(--color-nav-btn);
+    color: var(--color-background);
+}
+
+.nav-btn:hover,
+.nav-btn:active{
+background-color: #404BBF;
+cursor: pointer;
+color: var(--color-footer-logo);
+}
+
+/* portfolio cards */
+.portfolio-cards {
+}
+.portfolio-cards-list {
+}
+
+.portfolio-cards-item {
+}
+.portfolio-cards-title {
+    font-family: inherit;
+    font-size: 500;
+}
+.portfolio-cards-text {
+    font-family: inherit;
+    color: var(--color-secondary);
+}
