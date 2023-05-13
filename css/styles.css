@@ -40,7 +40,7 @@ font-family: 'Roboto', sans-serif;
         list-style: none;
     }
 
-.main-nav-link {
+.nav-link {
     text-decoration: none;
     list-style: none;
     font-weight: 500;
@@ -49,8 +49,8 @@ font-family: 'Roboto', sans-serif;
     color: var(--color-primary);
     }
 
-    .main-nav-link:hover,
-    .main-nav-link:focus{
+    .nav-link:hover,
+    .nav-link:focus{
         color: #404bbf;
     }
 
