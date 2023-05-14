@@ -150,10 +150,11 @@ color: var(--color-primary);
 }
 
 .team-list {
-    background-color: #fff;
+    background-color: #ffffff;
 }
 
 .team-item {
+    background-color: #ffffff;
 }
 .team-item-title{
 font-family: inherit;
