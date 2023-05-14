@@ -84,6 +84,7 @@ letter-spacing: 0.02em;
 }
 
 .hero-btn{
+font-family: inherit;
 color: var(--color-footer-logo);
 background-color: var(--color-background);
 font-weight: 500;
@@ -127,6 +128,10 @@ letter-spacing: 0.04em;
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: var(--color-primary);
+}
+
+.projects-intro-list{
+    background-color: #FFFFFF; 
 }
 
 /* Team */
@@ -203,7 +208,7 @@ text-decoration: none;
 }
 
 .nav-btn:hover,
-.nav-btn:active{
+.nav-btn:focus{
 background-color: #404BBF;
 cursor: pointer;
 color: var(--color-footer-logo);
